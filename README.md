@@ -33,8 +33,6 @@ Sensors -> ESP32 -> Wi-Fi (MQTT / HTTPS) -> Cloud backend (weather API + crop/co
         -> WhatsApp / Dashboard -> Farmer
 ```
 
-The editable diagram is in `docs/architecture.drawio` (open it at https://app.diagrams.net with File > Open from > Device). If the node loses its network connection, it still shows a local verdict on its OLED, LEDs and buzzer.
-
 ## Field node circuit (Wokwi)
 
 ![Wokwi field node circuit](docs/images/wokwi-circuit.png)
@@ -81,7 +79,7 @@ Serial monitor commands (115200 baud): `rain <mm>`, `crop <1-3>`, `act <0-3>`, `
 
 ## Validation plan
 
-A simulation alone is not enough proof, so each scenario is tested in Wokwi and then on a real ESP32 with real sensors, and the results are compared against reference measurements. The scenario test matrix and the real-world validation plan are in Section 14 of the [project proposal](docs/FarmGuard_Project_Proposal.docx). No measured results are reported yet; they will be added here once the tests are done.
+A simulation alone is not enough proof, so each scenario is tested in Wokwi and then on a real ESP32 with real sensors, and the results are compared against reference measurements. The scenario test matrix and the real-world validation plan are in Section 14 of the [project proposal](T4D_Proposal.pdf). No measured results are reported yet; they will be added here once the tests are done.
 
 ## Documents
 
