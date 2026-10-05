@@ -25,7 +25,7 @@ The decision is made by transparent rules. An LLM (planned) only explains the re
 
 ## Architecture
 
-![FarmGuard system architecture](docs/images/architecture.jpg)
+![FarmGuard system architecture](docs/images/architecture.png)
 
 ```
 Sensors -> ESP32 -> Wi-Fi (MQTT / HTTPS) -> Cloud backend (weather API + crop/cost DB)
@@ -37,7 +37,7 @@ The editable diagram is in `docs/architecture.drawio` (open it at https://app.di
 
 ## Field node circuit (Wokwi)
 
-![Wokwi field node circuit](docs/images/wokwi-circuit.jpg)
+![Wokwi field node circuit](docs/images/wokwi-circuit.png)
 
 Pin reference: [`docs/pin-mapping.md`](docs/pin-mapping.md)
 
