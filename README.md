@@ -85,8 +85,7 @@ A simulation alone is not enough proof, so each scenario is tested in Wokwi and 
 
 ## Documents
 
-- [Project proposal](docs/FarmGuard_Project_Proposal.docx)
-- [One-page technical progress report](docs/FarmGuard_One_Page_Technical_Progress_Report.docx)
+- [One-page technical progress report](T4D_Technical_Progress_Report.pdf)
 
 ## Roadmap
 
