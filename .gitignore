@@ -1,0 +1,22 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build output (if you later move to PlatformIO / Wokwi CLI)
+.pio/
+build/
+*.elf
+*.bin
+
+# Secrets - never commit these
+.env
+secrets.h
+*.pem
+
+# Python / Node (future cloud backend)
+__pycache__/
+*.pyc
+venv/
+node_modules/
